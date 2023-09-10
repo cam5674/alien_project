@@ -1,7 +1,7 @@
 
 
 class GameStats:
-    """Track stas for Alien Invasion."""
+    """Track stats for Alien Invasion."""
 
     def __init__(self, ai_game):
         """Initialize stats"""
@@ -11,3 +11,4 @@ class GameStats:
     def reset_stats(self):
         """Initialize stats that can change during the game."""
         self.ships_left = self.settings.ship_limit
+
